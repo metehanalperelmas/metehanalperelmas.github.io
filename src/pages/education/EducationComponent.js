@@ -32,7 +32,7 @@ class Education extends Component {
                   Education
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Basic Qualification and Certifcations
+                  Basic Qualification
                 </h3>
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
@@ -43,7 +43,6 @@ class Education extends Component {
             <Certifications theme={this.props.theme} />
           ) : null}
         </div>
-        <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
       </div>
     );
