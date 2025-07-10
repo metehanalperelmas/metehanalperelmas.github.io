@@ -2,12 +2,12 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Metehan Alper Elmas",
   description:
     "Passionate developer focused on scalable, reliable, and user-centered software solutions.",
   og: {
@@ -1055,39 +1055,82 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "I have built a variety of web and mobile applications using modern development tools. My favorite experiences involve developing full-stack projects and integrating complex API systems to deliver smooth, user-friendly solutions.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
-  title: "Publications",
-  description: "Some of my published Articles, Blogs and Research.",
+  title: "Projects",
+  description: "Some of my published, unpublished Projects and Work.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publications = {
   data: [
-    // {
-    //   id: "neuro-symbolic-sudoku-solver",
-    //   name: "Neuro-Symbolic Sudoku Solver",
-    //   createdAt: "2023-07-02T00:00:00Z",
-    //   description: "Paper published in KDD KiML 2023",
-    //   url: "https://arxiv.org/abs/2307.00653",
-    // },
-    // {
-    //   id: "mdp-diffusion",
-    //   name: "MDP-Diffusion",
-    //   createdAt: "2023-09-19T00:00:00Z",
-    //   description: "Blog published in Paperspace",
-    //   url: "https://blog.paperspace.com/mdp-diffusion/",
-    // },
-    // {
-    //   id: "consistency-models",
-    //   name: "Consistency Models",
-    //   createdAt: "2023-10-12T00:00:00Z",
-    //   description: "Blog published in Paperspace",
-    //   url: "https://blog.paperspace.com/consistency-models/",
-    // },
+    {
+      id: "sisus-osgb",
+      name: "Sisus OSGB",
+      createdAt: "2023-07-02T00:00:00Z",
+      description: "Sisus OSGB Company Website",
+      url: "https://sisusosgb.com",
+      image_path: "creaware_logo.png",
+    },
+    {
+      id: "avvet",
+      name: "EvVet",
+      createdAt: "2023-09-19T00:00:00Z",
+      description: "Mobile Vet Application",
+      url: "",
+      image_path: "semafor_logo.png",
+    },
+    {
+      id: "gabal",
+      name: "GABAL",
+      createdAt: "2023-10-12T00:00:00Z",
+      description: "E-Commerce Website For GABAL",
+      url: "https://www.gabal-verlag.de/",
+      image_path: "creaware_logo.png",
+    },
+    {
+      id: "hyla-tr",
+      name: "HylaTR",
+      createdAt: "2023-10-12T00:00:00Z",
+      description: "TR Website for HYLA GERMANY",
+      url: "https://www.hylatr.com/tr",
+      image_path: "creaware_logo.png",
+    },
+    {
+      id: "creaware",
+      name: "CreaWare",
+      createdAt: "2023-10-12T00:00:00Z",
+      description: "CreawareTr Company Website",
+      url: "https://www.creaware.net/",
+      image_path: "creaware_logo.png",
+    },
+    {
+      id: "asus",
+      name: "Asus Mobile App",
+      createdAt: "2023-09-19T00:00:00Z",
+      description: "Asus Smart Device Mobile Application",
+      url: "",
+      image_path: "semafor_logo.png",
+    },
+    {
+      id: "asus2",
+      name: "Asus WebApp",
+      createdAt: "2023-09-19T00:00:00Z",
+      description: "Asus Smart Device Web Application",
+      url: "",
+      image_path: "semafor_logo.png",
+    },
+    {
+      id: "crm",
+      name: "CRM Plugin",
+      createdAt: "2023-09-19T00:00:00Z",
+      description: "CRM Module for Software Company",
+      url: "",
+      image_path: "semafor_logo.png",
+    },
   ],
 };
 
