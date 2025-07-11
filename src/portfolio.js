@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Metehan Alper Elmas Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "",
   },
 };
 
